@@ -1,0 +1,152 @@
+{
+    "task_size_comparison": {
+        "50": {
+            "final_metrics": {
+                "utilization": 9.171333414098234,
+                "memory": 7.221904926236275,
+                "cpu": 9.171333414098234,
+                "disk": 9.535011697854335,
+                "response_time": 0.04873091174175542,
+                "power_consumption": 64.2384522552675,
+                "cpu_utilization": 0,
+                "ram_utilization": 0,
+                "mtbf": 1025.0,
+                "mttr": 28.5,
+                "error_rate": 0.05,
+                "rpm": 808.2151450673723,
+                "latency": 56.380220796925634,
+                "bandwidth": 1000.0,
+                "disk_usage": 12.035011697854335,
+                "disk_io": 1052.9472705029214,
+                "memory_utilization": 0,
+                "load_average": 0
+            },
+            "total_time": 9.139484405517578,
+            "total_tasks": 50
+        },
+        "100": {
+            "final_metrics": {
+                "utilization": 7.3941784709192575,
+                "memory": 7.336367480756014,
+                "cpu": 7.3941784709192575,
+                "disk": 8.665298425692725,
+                "response_time": 0.16673796778972388,
+                "power_consumption": 66.19169561339658,
+                "cpu_utilization": 1.9539673620255593,
+                "ram_utilization": 2.3363674807560137,
+                "mtbf": 1050.0,
+                "mttr": 27.0,
+                "error_rate": 0.05,
+                "rpm": 891.195777822126,
+                "latency": 52.85896871251483,
+                "bandwidth": 1000.0,
+                "disk_usage": 3.6652984256927255,
+                "disk_io": 917.0041181357974,
+                "memory_utilization": 2.5700042288316154,
+                "load_average": 0.19539673620255593
+            },
+            "total_time": 16.71358346939087,
+            "total_tasks": 100
+        },
+        "200": {
+            "final_metrics": {
+                "utilization": 11.66504412870253,
+                "memory": 8.834362461995724,
+                "cpu": 11.66504412870253,
+                "disk": 13.833488181399792,
+                "response_time": 46.461000200783275,
+                "power_consumption": 73.37537626100546,
+                "cpu_utilization": 20.794496635978806,
+                "ram_utilization": 13.834362461995724,
+                "mtbf": 1100.0,
+                "mttr": 24.0,
+                "error_rate": 0.05,
+                "rpm": 1182.5890501455256,
+                "latency": 52.99393112787104,
+                "bandwidth": 1000.0,
+                "disk_usage": 13.833488181399794,
+                "disk_io": 962.2186923689162,
+                "memory_utilization": 15.217798708195298,
+                "load_average": 2.0794496635978805
+            },
+            "total_time": 35.309940814971924,
+            "total_tasks": 200
+        }
+    },
+    "normalized_metrics": {
+        "50": {
+            "utilization": 0.18342666828196466,
+            "memory": 0.1444380985247255,
+            "cpu": 0.18342666828196466,
+            "disk": 0.1907002339570867,
+            "response_time": 0.0009746182348351084,
+            "power_consumption": 1.2847690451053502,
+            "cpu_utilization": 0.0,
+            "ram_utilization": 0.0,
+            "mtbf": 20.5,
+            "mttr": 0.57,
+            "error_rate": 0.001,
+            "rpm": 16.164302901347448,
+            "latency": 1.1276044159385128,
+            "bandwidth": 20.0,
+            "disk_usage": 0.2407002339570867,
+            "disk_io": 21.058945410058428,
+            "memory_utilization": 0.0,
+            "load_average": 0.0
+        },
+        "100": {
+            "utilization": 0.07394178470919258,
+            "memory": 0.07336367480756013,
+            "cpu": 0.07394178470919258,
+            "disk": 0.08665298425692726,
+            "response_time": 0.0016673796778972389,
+            "power_consumption": 0.6619169561339657,
+            "cpu_utilization": 0.019539673620255594,
+            "ram_utilization": 0.023363674807560138,
+            "mtbf": 10.5,
+            "mttr": 0.27,
+            "error_rate": 0.0005,
+            "rpm": 8.911957778221261,
+            "latency": 0.5285896871251483,
+            "bandwidth": 10.0,
+            "disk_usage": 0.03665298425692726,
+            "disk_io": 9.170041181357973,
+            "memory_utilization": 0.025700042288316155,
+            "load_average": 0.0019539673620255593
+        },
+        "200": {
+            "utilization": 0.05832522064351265,
+            "memory": 0.04417181230997862,
+            "cpu": 0.05832522064351265,
+            "disk": 0.06916744090699896,
+            "response_time": 0.23230500100391638,
+            "power_consumption": 0.36687688130502727,
+            "cpu_utilization": 0.10397248317989403,
+            "ram_utilization": 0.06917181230997863,
+            "mtbf": 5.5,
+            "mttr": 0.12,
+            "error_rate": 0.00025,
+            "rpm": 5.912945250727628,
+            "latency": 0.2649696556393552,
+            "bandwidth": 5.0,
+            "disk_usage": 0.06916744090699897,
+            "disk_io": 4.811093461844581,
+            "memory_utilization": 0.0760889935409765,
+            "load_average": 0.010397248317989403
+        }
+    },
+    "performance_ratios": {
+        "50_vs_100": {
+            "time_ratio": 0.5468297341653608,
+            "efficiency_ratio": 1.0936594683307217
+        },
+        "50_vs_200": {
+            "time_ratio": 0.25883601599361233,
+            "efficiency_ratio": 1.0353440639744493
+        },
+        "100_vs_200": {
+            "time_ratio": 0.47333932268456447,
+            "efficiency_ratio": 0.9466786453691289
+        }
+    }
+}

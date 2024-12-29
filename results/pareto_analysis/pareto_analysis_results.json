@@ -1,0 +1,96 @@
+{
+    "pareto_optimal_solutions": [
+        {
+            "task_size": 50,
+            "metrics": {
+                "utilization": 9.171333414098234,
+                "memory": 7.221904926236275,
+                "cpu": 9.171333414098234,
+                "disk": 9.535011697854335,
+                "response_time": 0.04873091174175542,
+                "power_consumption": 64.2384522552675,
+                "cpu_utilization": 0,
+                "ram_utilization": 0,
+                "mtbf": 1025.0,
+                "mttr": 28.5,
+                "error_rate": 0.05,
+                "rpm": 808.2151450673723,
+                "latency": 56.380220796925634,
+                "bandwidth": 1000.0,
+                "disk_usage": 12.035011697854335,
+                "disk_io": 1052.9472705029214,
+                "memory_utilization": 0,
+                "load_average": 0
+            }
+        },
+        {
+            "task_size": 100,
+            "metrics": {
+                "utilization": 7.3941784709192575,
+                "memory": 7.336367480756014,
+                "cpu": 7.3941784709192575,
+                "disk": 8.665298425692725,
+                "response_time": 0.16673796778972388,
+                "power_consumption": 66.19169561339658,
+                "cpu_utilization": 1.9539673620255593,
+                "ram_utilization": 2.3363674807560137,
+                "mtbf": 1050.0,
+                "mttr": 27.0,
+                "error_rate": 0.05,
+                "rpm": 891.195777822126,
+                "latency": 52.85896871251483,
+                "bandwidth": 1000.0,
+                "disk_usage": 3.6652984256927255,
+                "disk_io": 917.0041181357974,
+                "memory_utilization": 2.5700042288316154,
+                "load_average": 0.19539673620255593
+            }
+        },
+        {
+            "task_size": 200,
+            "metrics": {
+                "utilization": 11.66504412870253,
+                "memory": 8.834362461995724,
+                "cpu": 11.66504412870253,
+                "disk": 13.833488181399792,
+                "response_time": 46.461000200783275,
+                "power_consumption": 73.37537626100546,
+                "cpu_utilization": 20.794496635978806,
+                "ram_utilization": 13.834362461995724,
+                "mtbf": 1100.0,
+                "mttr": 24.0,
+                "error_rate": 0.05,
+                "rpm": 1182.5890501455256,
+                "latency": 52.99393112787104,
+                "bandwidth": 1000.0,
+                "disk_usage": 13.833488181399794,
+                "disk_io": 962.2186923689162,
+                "memory_utilization": 15.217798708195298,
+                "load_average": 2.0794496635978805
+            }
+        },
+        {
+            "task_size": 1000,
+            "metrics": {
+                "utilization": 10.31154468682295,
+                "memory": 9.206199101126215,
+                "cpu": 10.31154468682295,
+                "disk": 11.452493106386676,
+                "response_time": 450.1593958877922,
+                "power_consumption": 86.0005410783446,
+                "cpu_utilization": 5.247888275725362,
+                "ram_utilization": 14.206199101126217,
+                "mtbf": 1500,
+                "mttr": 15.0,
+                "error_rate": 0.05,
+                "rpm": 898.7268717780482,
+                "latency": 50.344219679966,
+                "bandwidth": 1000.0,
+                "disk_usage": 31.452493106386676,
+                "disk_io": 1061.5562236250482,
+                "memory_utilization": 15.62681901123884,
+                "load_average": 0.5247888275725363
+            }
+        }
+    ]
+}
